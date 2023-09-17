@@ -1,0 +1,415 @@
+/* xs */
+
+@media screen and (max-width: 991px) {
+  nav .logo {
+    background-color: transparent;
+  }
+  nav .content {
+    display: none;
+  }
+  nav .bar {
+    display: block;
+  }
+  .content-ss {
+    width: 35%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+    position: fixed;
+  }
+  .layer {
+    display: none;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .content-ss i {
+    padding: 20px;
+    color: var(--thirdly-text-light-mode-color);
+    padding: 20px 10px;
+    font-size: 27px;
+    font-weight: 900;
+    transition: color 0.5s;
+
+    align-self: end;
+  }
+  .content-ss a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px 10px;
+    font-weight: 600;
+    background-color: #fff;
+    color: var(--thirdly-text-light-mode-color);
+    transition: color 0.5s;
+  }
+  .content-ss a:hover,
+  .content-ss i:hover {
+    color: black;
+  }
+
+  /*  Navigation Bar Style End 
+ */
+
+  /*  Home Section Style Start  */
+  body {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  .home {
+    height: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .home .description,
+  .home .box-img {
+    width: 90%;
+  }
+  .home .description {
+    padding-left: 0px;
+
+    order: 2;
+  }
+  .home .box-img {
+    padding-right: 0px;
+    padding-bottom: 30px;
+
+    order: 1;
+  }
+
+  .description .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .description .book {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  /*  Home Section Style End  */
+
+  /*  Chefs Section Style Start  */
+  section.chefs {
+    padding: 50px 0px;
+    height: auto;
+  }
+
+  section.chefs .cards {
+    flex-wrap: wrap;
+  }
+
+  section.chefs .cards .card {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  /*  Chefs Section Style End  */
+
+  /*  Gallery Section Style Start  */
+  .gallery .items .item {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  /*  Gallery Section Style End  */
+
+  /*  Contact Us Section Style Start  */
+
+  .contact .header p {
+    text-align: center;
+  }
+  .contact .info {
+    justify-content: center;
+    align-items: center;
+  }
+  .info .item {
+    width: 90%;
+  }
+  .info .item i {
+    background-color: var(--secondly-text-light-mode-color);
+    font-size: 24px;
+    padding: 15px;
+  }
+  .info .content {
+    padding-left: 10px;
+  }
+
+  .message {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .message div {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  input.name {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .message input,
+  textarea {
+    width: 90%;
+  }
+  .message input.subject {
+    width: 90%;
+  }
+
+  /*  Contact Us  section Style End  */
+
+  /* footer */
+  footer {
+    flex-wrap: wrap;
+  }
+  footer .subscribe-and-quick-links {
+    width: 100%;
+  }
+
+  footer .info {
+    width: 100%;
+  }
+  footer ul {
+    width: 100%;
+  }
+  footer li {
+    font-size: 14px;
+    justify-content: space-between;
+  }
+  footer .get-in-touch {
+    width: 100%;
+  }
+  footer .subscripe-data {
+    flex-wrap: wrap;
+  }
+  footer .subscripe-data button {
+    width: 100%;
+  }
+  footer .subscripe-data input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  footer .info .icons {
+    justify-content: center;
+  }
+}
+/* lg */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  nav .logo {
+    background-color: transparent;
+  }
+  nav .content {
+    display: none;
+  }
+  nav .bar {
+    display: block;
+  }
+  .content-ss {
+    width: 35%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+    position: fixed;
+  }
+  .layer {
+    display: none;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .content-ss i {
+    padding: 20px;
+    color: var(--thirdly-text-light-mode-color);
+    padding: 20px 10px;
+    font-size: 27px;
+    font-weight: 900;
+    transition: color 0.5s;
+
+    align-self: end;
+  }
+  .content-ss a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px 10px;
+    font-weight: 600;
+    background-color: #fff;
+    color: var(--thirdly-text-light-mode-color);
+    transition: color 0.5s;
+  }
+  .content-ss a:hover,
+  .content-ss i:hover {
+    color: black;
+  }
+
+  /*  Navigation Bar Style End 
+ */
+
+  /*  Home Section Style Start  */
+  body {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  .home {
+    height: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .home .description,
+  .home .box-img {
+    width: 90%;
+  }
+  .home .description {
+    padding-left: 0px;
+
+    order: 2;
+  }
+  .home .box-img {
+    padding-right: 0px;
+    padding-bottom: 30px;
+
+    order: 1;
+  }
+
+  .description .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .description .book {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  /*  Home Section Style End  */
+
+  /*  Chefs Section Style Start  */
+  section.chefs {
+    padding: 50px 0px;
+    height: auto;
+  }
+
+  section.chefs .cards {
+    flex-wrap: wrap;
+  }
+
+  section.chefs .cards .card {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+
+  /*  Chefs Section Style End  */
+
+  /*  Gallery Section Style Start  */
+  .gallery .items .item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  /*  Gallery Section Style End  */
+
+  /*  Contact Us Section Style Start  */
+
+  .contact .header p {
+    text-align: center;
+  }
+  .contact .info {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .info .item {
+    width: 45%;
+  }
+  .info .item i {
+    background-color: var(--secondly-text-light-mode-color);
+    font-size: 24px;
+    padding: 15px;
+  }
+  .info .content {
+    padding-left: 10px;
+  }
+
+  .message {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .message div {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  input.name {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .message input,
+  textarea {
+    width: 90%;
+  }
+  .message input.subject {
+    width: 90%;
+  }
+
+  /*  Contact Us  section Style End  */
+
+  /* footer */
+  footer {
+    flex-wrap: wrap;
+  }
+  footer .subscribe-and-quick-links {
+    width: 100%;
+  }
+
+  footer .info {
+    width: 100%;
+  }
+  footer ul {
+    width: 100%;
+  }
+  footer li {
+    font-size: 14px;
+    justify-content: space-between;
+  }
+  footer .get-in-touch {
+    width: 100%;
+  }
+  footer .subscripe-data {
+    flex-wrap: wrap;
+  }
+  footer .subscripe-data button {
+    width: 100%;
+  }
+  footer .subscripe-data input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  footer .info .icons {
+    justify-content: center;
+  }
+  footer .quick-links {
+  }
+}
